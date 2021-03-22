@@ -1,5 +1,7 @@
 # Weather-Maps-API
 
+<img src="Instruction_Images/equatorsign.png" alt="Equator" width="800">
+
 Penn Data Boot Camp Assignment 6 - In the first part of this exercise, I created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. Specifically, scatter plots and linear regressions were created to visualize and analyze the correlations between city latitudes and various weather characteristics such as temperature, humidity, and cloudiness. In the second part, I also generated Google heatmaps with selected cities and their corresponding weather characteristics.
 
 Throughout this assignment,  OpenWeatherMap API and Google Places API were used.
@@ -20,11 +22,11 @@ Throughout this assignment,  OpenWeatherMap API and Google Places API were used.
 
 <hr>
 
-![max_temp_north](WeatherPy/output_data/lat_vs_max_temp_north)
+<img src="WeatherPy/output_data/lat_vs_max_temp_north.png" alt="max_temp_north" width="400">
 
 4. Based on the regression model, for each unit increase (+1) of latitude, the max temperature of a selected city is estiamted to change by -1.4. And when latitude is 0°, meaning at earth's equator, the max temperature of a selected city is estimated to be at 91.96 °F. Also, there is a moderate-strong negative correlation between latitude and temperature in the Northern Hemisphere.
 
-![max_temp_south](WeatherPy/output_data/lat_vs_max_temp_south)
+<img src="WeatherPy/output_data/lat_vs_max_temp_south.png" alt="max_temp_south" width="400">
 
 5. Based on the regression model, for each unit increase (+1) of latitude, the max temperature of a selected city is estiamted to change by 0.36. And when latitude is 0°, meaning at earth's equator, the max temperature of a selected city is estimated to be at 81.35 °F. Also, there is a weak-moderate positive correlation between latitude and temperature in the Southern Hemisphere.
 
