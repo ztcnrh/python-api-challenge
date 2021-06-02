@@ -1,4 +1,4 @@
-# Weather-Maps-API
+# OpenWeatherMap API
 
 <img src="Instruction_Images/equatorsign.png" alt="Equator" width="800">
 
